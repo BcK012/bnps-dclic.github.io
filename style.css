@@ -1,0 +1,595 @@
+.body {
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+        padding: 15px;
+        background-color:black;
+        border:1px solid blue;
+       
+      
+               
+}
+.ctext1 span {
+        color: hsl(15, 100%, 50%);
+}
+.myname {
+        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+        line-height: 1.2;
+        display: block;
+}
+.nom {
+        color: white;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 35px;
+        letter-spacing: 3px;
+        
+}
+
+.prenom {
+        color: rgb(0, 255, 191);
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 30px;
+        letter-spacing: 3px;
+}
+.entete { 
+
+        display: flex;
+        height: 80px;
+        line-height: 30px;
+        z-index: 111;
+        justify-content: space-between;
+        
+}
+.menu {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        text-align: end;
+}
+.menu li {
+        margin: 0 15px;
+
+}
+.menu li a{
+        font-size: 15px;
+        color: white;
+        letter-spacing: 3px;
+        text-transform: capitalize;           
+}
+.menu li a{
+        
+        
+}
+
+.menu li:hover a{
+        color:  rgb(0, 255, 213);
+}
+
+*{
+        margin: opx;
+        padding: 0px;
+        list-style-type: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'poppins''sans-serif';
+}
+.corps {
+        background-color: rgb(250, 250, 250);
+        border: 1px solid rgb(180, 180, 244);
+        overflow: hidden;
+}
+
+.accueil{
+        padding: 0px;
+        display: flex;
+        background-color: rgb(232, 228, 228);
+        align-items: center;
+        font-weight:bold;
+        font-size: 150px;
+        letter-spacing: 3px
+}
+
+.ctext1{
+        width: 70%;
+        justify-content: center;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 18%;
+}
+
+.cimage1 {
+        width: 30%;
+        margin: 40px;
+        border-right: 20%;
+}
+
+.cimage1 img {
+        width: 400px;
+        height: 300px;
+        border: 100%;
+        justify-content: space-around;
+
+        overflow: hidden;
+}
+.compet{
+        color:black;
+        width: 100%;
+        text-align:center;
+        font-weight: bolder;
+        font-size: 25px;
+        padding-top: 5%;
+
+}
+.competences {
+                padding: 15px;
+                display: block;
+                background-color:rgb(242, 240, 238);
+                border:1px solid rgb(249, 249, 250);  
+                margin: px;                       
+}
+
+.apropos {
+        display: block;
+        background-color: rgb(247, 246, 246);
+}
+
+.propos{
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        
+
+}
+
+
+.prop {
+        color:rgb(7, 101, 75);
+        width: 100%;
+        text-align:center;
+        font-weight: bolder;
+        font-size: 25px;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5%;
+
+}
+
+.ctext2 {
+        width: 70%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        font-weight: normal;
+        align-content: center;
+        text-align: justify;
+        margin-left: 5%;
+}
+
+.ctext2 b {
+        color: hsl(15, 100%, 50%);
+
+}
+
+.cimage2 {
+        width: 30%;
+        justify-content: space-around;
+        margin: 40px;
+
+}
+
+.cimage2 img {
+        width: 400px;
+        height: 400px;
+        border-radius: 100%;
+        
+        overflow: hidden;
+}
+.fbouton button {
+       
+        background-color:rgb(7, 101, 75);
+        color: white;
+        width: 25%;
+        height: 75%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+}
+
+
+
+.skills {
+        display: flex;
+        width: 100%;
+}
+
+
+.sfotskills{
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        margin: 45px;
+        padding: 5px;
+        border-radius: 4%;
+
+}
+.hardskills{
+        width: 50%;
+        
+        background-color: rgb(255, 255, 255);
+        margin: 45px;
+        padding: 5px;
+        border-radius: 4%;
+        
+}
+.propos span {
+        display: flex;
+        width: 100px;
+        color: rgb(0, 255, 191);
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        font-size: 50;
+}
+
+.contact{
+        display: block;
+        margin:none;
+        background-color: black; 
+        color: white;    
+              
+       
+}
+.contact span {
+        
+        margin: auto;
+        
+        color: white;          
+       
+}
+
+.formulaire{
+        display: flex;
+        
+}
+fprenom{
+        width: 50%;
+        background-color:white;
+        
+
+}
+.fprenom label {
+        width: 250px;
+}
+
+.fnom label {
+        width: 250px;
+}
+
+
+.fmessage input {
+        
+        height: 300px;
+}
+
+
+fnom{
+        width: 50%;
+        background-color:white;
+        
+
+}
+.fseparation {
+        display: flex;
+        justify-content: space-between;
+        line-height: 5px;
+}
+
+.fsujet input{
+        width: 100%;      
+}
+
+.fsujet label{
+
+}
+
+
+.envoyer {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+}
+.envoyer button {
+       
+        background-color:rgb(7, 101, 75);
+        color: white;
+        width: 20%;
+        height: 75%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+        
+}
+.telecharger button {
+        background-color:rgb(7, 101, 75);
+        color: white;
+        width: 40%;
+        height: 75%;
+        padding: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 10px;
+
+}
+.projets {
+        display: block;
+        background-color: rgb(229, 228, 227);
+}
+.mesprojets {
+        display: flex;
+}
+.proj {
+        color:rgb(7, 101, 75);
+        width: 100%;
+        text-align:center;
+        font-weight: bolder;
+        font-size: 25px;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5%;
+
+}
+       
+.projets1 {
+       
+        display: block;
+        width: 75%;
+        background-color: rgb(255, 255, 255);
+        margin: 45px;
+        padding: 5px;
+        border-radius: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+}
+.projets2 {
+        display: block;
+        width: 75%;
+        background-color: rgb(255, 255, 255);
+        margin: 45px;
+        padding: 5px;
+        border-radius: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+}
+.projets3 {
+        display: block;
+        width: 75%;
+        background-color: rgb(255, 255, 255);
+        margin: 45px;
+        padding: 5px;
+        border-radius: 15px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+}
+.projets1 voir {
+        align-items: center;
+        justify-content: center;
+
+}
+
+.voir{
+        display: block;
+        
+        
+}
+
+.voir button {
+        background-color:rgb(7, 101, 75);
+        color: white;
+        width: 20%;
+        height: 20%;
+        padding: 9px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align:center;
+        align-items: center;
+        align-content: center;
+        
+}
+
+ .ctext3{
+        width: 100%;
+        justify-content: center;
+        margin: none;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-size: 38px;
+        
+
+        
+}
+
+.ctext3 span {
+        color: rgb(0, 255, 191);
+        font-weight: bold;
+
+}
+form {
+        max-width: 600px;
+        margin: auto;
+        border-radius: 20%;
+}
+label {
+        display: block;
+        width: 100%;
+        margin: 0px 0 5px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        
+}
+
+input {
+        width: 100%;
+        padding: 10px;
+       
+        border: 1px solid black;
+        border-radius: 10px;
+}
+
+.basdepage {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+        height: 50%;
+        font-weight: bold;
+        font-size: 100%;
+}
+.basdepage b {
+        color: hsl(15, 100%, 50%);
+
+
+}
+
+.soft {
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 5%;
+        text-align: center;
+}
+
+.hard {
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 5%;
+        text-align: center;
+
+}
+.progress {
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 0%;
+        margin-bottom: 5%;
+}
+
+:root {
+        --success:rgb(20, 195, 145);
+        --progress: rgb(124, 243, 187);
+}
+
+
+.progressbar-wrapper {
+        background-color:rgb(0, 255, 191);
+        color: white;
+        border-radius: 5%;
+        width: 100%;
+}
+
+.progressbar {
+        background-color: var(--progress);
+        color: white;
+        padding: 1%;
+        text-align: right;
+        font-size: 10px;
+        border-radius: 5px;
+}
+
+
+.progressbar[title="Gestion de Projet"] {
+        background-color: var(--progress);
+}
+
+
+.progressbar[title="Gestion de Projet"] {
+        background-color: var(--success);
+        width: 75%;
+}
+.progressbar[title="Résolution de Problèmes"] {
+        background-color: var(--progress);
+}
+
+
+.progressbar[title="Résolution de Problèmes"] {
+        background-color: var(--success);
+        width: 63%;
+}
+
+.progressbar[title="Adaptabilité"] {
+        background-color: var(--progress);
+        width: 63%;
+}
+
+
+.progressbar[title="Adaptabilité"] {
+        background-color: var(--success);
+        width: 63%;
+}
+
+.progressbar[title="Adaptabilité"] {
+        background-color: var(--progress);
+}
+
+
+.progressbar[title="Adaptabilité"] {
+        background-color: var(--success);
+        width: 90%;
+}
+
+.progressbar[title="HTML"] {
+        background-color: var(--progress);
+        width: 95%;
+}
+
+
+.progressbar[title="HTML"] {
+        background-color: var(--success);
+        width: 95%;
+}
+
+.progressbar[title="CSS"] {
+        background-color: var(--progress);
+        width: 78%;
+}
+
+
+.progressbar[title="CSS"] {
+        background-color: var(--success);
+        width: 78%;
+}
+
+.progressbar[title="Javascript"] {
+        background-color: var(--progress);
+        width: 70%;
+}
+
+
+.progressbar[title="Javascript"] {
+        background-color: var(--success);
+        width: 70%;
+}
+
+.progressbar[title="Vs Code"] {
+        background-color: var(--progress);
+        width: 85%;
+}
+
+
+.progressbar[title="Vs Code"] {
+        background-color: var(--success);
+        width: 85%;
+}
