@@ -1,6 +1,9 @@
 //Enpêcher que le formulaire soit envoyer
-document.getElementById("contactForm").addEventListener("submit".function(e))
+let contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit".function(e)) {
         e.preventDefault()
+}
 
 //Récupération des données saisies
 const prenom = document.getElementById("prenom").value;
@@ -12,6 +15,7 @@ const message = document.getElementById("message").value;
 
 if (prenom===" || nom===" || sujet===" || message==="){
         alert("Veuillez bien remplir tous les champs.");
+        return;
       
 }
 
@@ -24,3 +28,7 @@ console.log(document.getElementById("message :" + message));
 
 document.getElementById("contacForm").reset();
 alert("Votre message a été bien envoyé avec succès!");
+
+function redirigerVersProjets() {
+        Window.location.href Id="#projets";
+}

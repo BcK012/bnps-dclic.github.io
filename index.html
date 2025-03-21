@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
-        <meta charset="utf-8">
-        <meta lang="fr">
-        <title>Bayedze COMLAN Projet final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projet final de Bayedze COMLAN</title>
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,25 +13,26 @@
                                         <div class="nom">COMLAN</div><div class="prenom">Bayédzè Koffi</div>    
                         </div>
                         <div class="menu">                           
-                                        <li><a href="#">Accueil</a></li> 
-                                        <li><a href="#">À propos</a></li> 
-                                        <li><a href="#">Projets</a></li> 
-                                        <li><a href="#">compétences</a></li>
-                                        <li><a href="#">Contact</a></li> 
+                                        <li><a href="#accueil">Accueil</a></li> 
+                                        <li><a href="#apropos">À propos</a></li> 
+                                        <li><a href="#projets">Projets</a></li> 
+                                        <li><a href="#competences">compétences</a></li>
+                                        <li><a href="#contact">Contact</a></li> 
                                 
                         </div>
-                        <div class=" reseau"></div>
+                        
                 </nav>
         </div>
 
         <div class="corps">
-                        <div class="accueil"> 
+                        <div class="accueil" id="accueil"> 
                                 <div class="ctext1">
                                         <p>Je suis <span>Bayédzè</span>, Développeur en devenir</p>
                                                 <p>passionée par le web et le design!</p>
                          </p>
                         <div class="fbouton">
-                                <button ondblclick="voirMesProjets">Voir mes projets </button>
+                                <div class="projets" id="projets"></div>
+                                <button onclick="voirMesProjets"> <div class="projets" id="projets"></div>Voir mes projets</button>
                         </div> 
                                 </div>
                                        
@@ -41,7 +43,7 @@
 
                         </div>
 
-                        <div class="apropos">
+                        <div class="apropos" id="apropos">
                         <div class="prop">À Propos</div>
                         
                                 <div class="propos">
@@ -65,10 +67,10 @@
 
                         </div>
 
-                        <div class="projets"> 
+                        <div class="projets" id="projets"> 
                                <div class="proj">Mes Projets</div>
                                 <nav class="mesprojets">
-                                        <div class="projets1"> 
+                                        <div class="projets1" id="projets1"> 
 
                                                 <p>Projet déjà réealisé</p>
                                                 <p>En 2023, j'ai mis en place un serveur<br>
@@ -81,7 +83,7 @@
                                         </div>
 
 
-                                        <div class="projets2">
+                                        <div class="projets2" id="projets2">
                                                 <p>Projet en cours de réalisation</p>
                                                 <p>Actuelement, je sus des cours en dévèleppement Web,<br>
                                                 Sur la plateforme de D-CLIC organisé par OIF.</p>
@@ -93,7 +95,7 @@
                                                 </div>
                                         </div>
 
-                                        <div class="projets3">
+                                        <div class="projets3" id="projets3">
                                                 <p>Projet à venir </p>
                                                 <p>Avec mon profil d'Admini. Système & Réseau et  <br>
                                                 Dev. Web, je veux proposer mes service aux PME/TPE</p>
@@ -111,7 +113,7 @@
                                 </nav>
                         </div>
 
-                        <div class="competences">
+                        <div class="competences" id="competences">
                                 <div class="compet">Mes Compétences</div>
                                 <nav class="skills" id="">
                                         <div class="sfotskills">
@@ -168,7 +170,7 @@
                                 </nav>
 
                         </div>
-                        <div class="contact"> 
+                        <div class="contact" id="contact"> 
                                 <div class="ctext3">
                                         <p>Vous avez un <span>projet en tête?</span><br>
                                         N'hésitez pas à me <span>contacter</span></p>
