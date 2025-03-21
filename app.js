@@ -32,3 +32,4 @@ alert("Votre message a été bien envoyé avec succès!");
 function redirigerVersProjets() {
         Window.location.href Id="#projets";
 }
+

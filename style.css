@@ -196,7 +196,7 @@
         width: 25%;
         height: 75%;
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
         border-radius: 10px;
 }
@@ -302,15 +302,16 @@ fnom{
         align-items: center;
         display: flex;
         justify-content: space-around;
+        
 }
 .envoyer button {
        
         background-color:rgb(7, 101, 75);
         color: white;
-        width: 20%;
-        height: 75%;
-        padding: 10px;
-        font-size: 16px;
+        width: 25%;
+        height: 80%;
+        padding: 12px;
+        font-size: 20px;
         font-weight: bold;
         border-radius: 10px;
         
