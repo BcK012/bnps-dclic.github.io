@@ -130,7 +130,7 @@
                 display: block;
                 background-color:rgb(242, 240, 238);
                 border:1px solid rgb(249, 249, 250);  
-                margin: px;                       
+                margin-bottom:10px;                       
 }
 
 .apropos {
@@ -350,7 +350,7 @@ fnom{
        
         display: block;
         width: 75%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 250, 250);
         margin: 45px;
         padding: 5px;
         border-radius: 15px;
@@ -362,7 +362,7 @@ fnom{
 .projets2 {
         display: block;
         width: 75%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 250, 250);
         margin: 45px;
         padding: 5px;
         border-radius: 15px;
@@ -371,17 +371,34 @@ fnom{
         justify-content: center;
         font-weight: bold;
 }
+
+.projets1 b {
+        font-weight: bold;
+        font-size: 18px;
+        color: hsl(2, 100%, 51%);
+}
+.projets2 b {
+        font-weight: bold;
+        font-size: 18px;
+        color:hsl(2, 100%, 51%);
+}
+.projets3 b {
+        font-weight: bold;
+        font-size: 18px;
+        color: hsl(2, 100%, 51%);
+}
 .projets3 {
         display: block;
         width: 75%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 250, 250);
         margin: 45px;
         padding: 5px;
         border-radius: 15px;
         align-items: center;
         text-align: center;
         justify-content: center;
-        font-weight: bold;
+        font-weight: bolder;
+
 }
 .projets1 voir {
         align-items: center;

@@ -31,15 +31,16 @@
                                                 <p>passionée par le web et le design!</p>
                          </p>
                         <div class="fbouton">
-                                <div class="projets" id="projets"></div>
-                                <button onclick='window.location.href="#projets"'>Voir mes projets</button>
-                                <div class="projets" id="projets"></div>
+                                <div class="projet" id="projets"></div>
+                                <button onclick='window.location.href="#proj"'>Voir mes projets</button>
+                               
                                 
                         </div> 
                                 </div>
                                        
-                                <div class="cimage1" width: 400px, height:400px, border-radius: 100%>
-                                        <img src="bnps.jpg" >
+                                <div class="cimage1">
+                                      
+                                        <img src="bnps.jpg" style="max-width: 600px;height: 600S;">
                                 </div>
 
 
@@ -63,7 +64,8 @@
                                                 </div>
                                         </div>
                                         <div class="cimage2">
-                                                <img src="bayedze.jpg">
+                                                <img src="bayedze.jpg" style="max-width: 400px;height: 400S;border-radius: 100%; ">
+                                                
                                         </div>
                                 
                                 </div>
@@ -71,11 +73,11 @@
                         </div>
 
                         <div class="projets" id="projets"> 
-                               <div class="proj">Mes Projets</div>
+                               <div class="proj" id="proj">Mes Projets</div>
                                 <nav class="mesprojets">
                                         <div class="projets1" id="projets1"> 
 
-                                                <p>Projet déjà réealisé</p>
+                                                <p><b>Projet déjà réealisé</b></p>
                                                 <p>En 2023, j'ai mis en place un serveur<br>
                                                 de sauvegarde de donnée en local pour une entreprise </p>
                                                 <p>j'ai utilisé BackupPc pour configurer le serveur</p>
@@ -87,7 +89,7 @@
 
 
                                         <div class="projets2" id="projets2">
-                                                <p>Projet en cours de réalisation</p>
+                                                <p></p><b>Projet en cours de réalisation</b></p>
                                                 <p>Actuelement, je sus des cours en dévèleppement Web,<br>
                                                 Sur la plateforme de D-CLIC organisé par OIF.</p>
                                                 <p> L'objectif c'est de terminé les trois niveaux.</p>
@@ -99,7 +101,7 @@
                                         </div>
 
                                         <div class="projets3" id="projets3">
-                                                <p>Projet à venir </p>
+                                                <p><b>Projet à venir</b></p>
                                                 <p>Avec mon profil d'Admini. Système & Réseau et  <br>
                                                 Dev. Web, je veux proposer mes service aux PME/TPE</p>
                                         
@@ -179,7 +181,8 @@
                                         N'hésitez pas à me <span>contacter</span></p>
                                 </div>
 
-                                <form method="get" action="" id="contactForm">
+                               
+                                 <form name="fContact" action="" onsubmit="return contactForm()" method="post" class="contactForm">
                                         <div class="monformulaire">
                                                 <div class="fseparation">
                                                         <div class="fprenom">
